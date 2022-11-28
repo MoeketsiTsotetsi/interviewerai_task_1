@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Registration Page</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <form id="form" action="#" method="get">
+        <div class="logo">
+            <img src="./images/Dark@3x.png" width="300" height="100" >
+        </div>
+        
+        <div class="form-items">
+            <div>
+                <label for="username">Username</label><br>
+            </div>
+                <input type="text" name="username" id="username" required> 
+            <div>
+            <div>
+                <label for="email">Email</label><br>
+            </div>
+                <input type="email" name="email" id="email" required> 
+            <div>
+                <label for="password">Password</label> <br>
+                <input type="password" name="password" id="password" required>
+            </div>
+            <button class="btn-Submit" type="submit">Register</button>
+            <button class="btn-Submit" type="button" ><a href="jobs.html">Go To Jobs</a></button>
+            <div class="errorMsg">
+               <p id="error"></p>
+            </div>
+        </div>
+
+        
+        
+    </form>
+</body>
+</html>
